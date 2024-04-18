@@ -81,8 +81,21 @@ class BasicWorldDemo {
       
       model.receiveShadow = true;
       mesh = model;
-    
     });
+
+      //new GLTFLoader().load('space1.glb', ({ scene: model1 }, animations) => {
+       // this._scene.add(model1);
+       // model1.scale.setScalar(100);
+       // model1.rotateX(Math.PI)
+       // model1.rotateZ(Math.PI)
+       // model1.position.set (-50, -25, 50)
+       // camera.lookAt(model1.position);
+       // controls.target.copy(model1.position);
+        
+      //  model1.receiveShadow = true;
+       // mesh = model1;
+
+    // });
 
 
 
